@@ -1,0 +1,17 @@
+question_id,field,question,when_to_ask,why
+Q001,annual_turnover_inr,What is your approximate annual turnover?,required_if_missing,"Needed for MSME, GST, FSSAI and income-tax screening."
+Q002,investment_inr,"Approximately how much have you invested in plant, machinery or equipment?",required_for_udyam,Needed for current MSME classification.
+Q003,employees_total,How many people work in the business?,required,Needed for labour and scheme screening.
+Q004,legal_form,"Is the business a proprietorship, partnership, LLP, company, cooperative, SHG or something else?",required,Legal form affects tax and scheme eligibility.
+Q005,state,Which state/UT and district is the business in?,required,State/local rules and some schemes vary by location.
+Q006,gst_registered,Are you already GST registered?,required,Avoid duplicate guidance and improve GST matching.
+Q007,udyam_registered,Do you already have Udyam/MSME registration?,required,Avoid duplicate formalization guidance.
+Q008,food_business,"Do you prepare, process, sell or serve food?",required,Triggers FSSAI screening.
+Q009,street_vendor,Do you operate as a street vendor/cart/thela/hawker?,conditional,Triggers street-vending rules and PM SVANidhi.
+Q010,artisan_trade,"Do you work in a traditional artisan trade? If yes, which one?",conditional,Enables PM Vishwakarma trade-level matching.
+Q011,business_status,Is the business new/proposed or already operating?,required,Important for PMEGP/PMFME and other schemes.
+Q012,cash_receipts_share_pct,Approximately what percentage of receipts are in cash?,conditional,Important for the higher presumptive-tax turnover threshold.
+Q013,employees_wage_below_21000,"How many employees earn ₹21,000 or less per month?",conditional,Useful for ESI screening; verify current wage rules.
+Q014,ecommerce_selling,Do you sell through an e-commerce operator/online marketplace?,conditional,Triggers additional GST/e-commerce checks.
+Q015,rural_urban,Is the business in a rural or urban area?,conditional,Useful for selected schemes.
+Q016,owner_age,What is the owner's age?,conditional,Needed for schemes with age conditions such as PM Vishwakarma.

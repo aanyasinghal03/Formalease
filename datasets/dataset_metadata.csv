@@ -1,0 +1,7 @@
+key,value
+dataset_name,FormalEase Scheme & Compliance Matching Training Pack
+purpose,Synthetic training/evaluation examples plus deterministic rules for an informal/small-business formalization advisor.
+important,Synthetic examples are NOT official training labels and must not be treated as government eligibility decisions.
+model_role,LLM extracts business facts and asks missing questions; deterministic rules perform compliance/scheme matching.
+answer_style,Potentially applicable / potential match / check applicability / verify current eligibility.
+last_researched,2026-08-16

@@ -1,0 +1,11 @@
+source_id,source_name,scope,url
+SRC001,Udyam Registration Portal,MSME classification and registration,https://udyamregistration.gov.in/
+SRC002,CBIC GST,"GST laws, registration and FAQs",https://cbic-gst.gov.in/
+SRC003,Income Tax Department,Presumptive taxation and ITR guidance,https://www.incometax.gov.in/
+SRC004,FSSAI,Food registration/licensing,https://fssai.gov.in/cms/registration.php
+SRC005,EPFO,EPF employer applicability,https://www.epfindia.gov.in/site_en/For_Employers.php
+SRC006,ESIC,ESI applicability,https://www.esic.gov.in/
+SRC007,Rajasthan Labour Department,Rajasthan establishment registration,https://labour.rajasthan.gov.in/rulesshop.aspx
+SRC008,Ministry of MSME,Central MSME schemes,https://www.msme.gov.in/offerings
+SRC009,MoFPI PMFME,Micro food processing formalization,https://pmfme.mofpi.gov.in/pmfme/newsletters/
+SRC010,MoHUA PM SVANidhi,Street vendor scheme,https://www.mohua.gov.in/documents/guidelines/guidelines-pradhan-mantri-street-vendors-atmanirbhar-nidhi-pm-svanidhi-scheme-UTM0EDNtQWa

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-canvas text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-charcoal;
+  }
+  *:focus-visible {
+    outline: 2px solid #1F7A45;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-emerald-600 text-canvas font-display font-semibold px-6 py-3 text-[15px] shadow-card transition-all duration-200 hover:bg-emerald-700 hover:shadow-cardHover active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-charcoal/15 bg-transparent text-charcoal font-display font-semibold px-6 py-3 text-[15px] transition-all duration-200 hover:border-charcoal/30 hover:bg-charcoal/5 active:scale-[0.98];
+  }
+  .card {
+    @apply bg-white/80 border border-charcoal/8 rounded-xl2 shadow-card;
+  }
+  .input-field {
+    @apply w-full rounded-xl border border-charcoal/15 bg-white px-4 py-3 text-[15px] text-ink placeholder:text-ink/35 transition-colors focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none;
+  }
+  .label-text {
+    @apply block text-[13px] font-semibold text-charcoal/80 mb-1.5;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[12px] font-semibold tracking-wide;
+  }
+  .badge-good {
+    @apply bg-mint text-emerald-700;
+  }
+  .badge-check {
+    @apply bg-amber-50 text-amber-500;
+  }
+  .badge-neutral {
+    @apply bg-sand text-charcoal/70;
+  }
+}
